@@ -1,0 +1,40 @@
+//Part One: Solidify Terminology
+//What is HTTP?
+HTTP is an application protocol that determines how browsers communicate with web servers. 
+
+//What is a URL?
+It is an identifier used to locate a particular resource on the internet and a mechanism for 
+retrieving it. 
+
+//What is DNS?
+A system in which domain names are mapped to the IP address of the domain name. Once the IP address is 
+retrieved, the webpage is loaded for the user.
+
+//What is a query string?
+A query string provides extra information for the resource being requested by the browser/user. 
+
+//What are two HTTP verbs and how are they different?
+The two HTTP verbs are GET and POST.
+The GET method is used to request used to retrieve information without changing server data.
+Example is using a search page to retrieve information.
+
+The POST method is used to change information in the server. For example submitting data that 
+is posted on a website such as reddit.com.
+
+
+//What is an HTTP request?
+HTTP request is a message sent by a web server through an URL to retrieve information from the server.
+It consists of the method, http protocol, resource URL and headers. 
+
+//What is an HTTP response?
+HTTP response is the message sent by a web server in response to a request made by the browser. 
+
+//What is an HTTP header? Give a couple examples of request and response headers you have seen.
+HTTP header provides additional context about the request being sent. For example, the additional context 
+could be the language, the preferred media format, date and time or a cookie. 
+
+//What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+-Client submits name of the URL.
+-Browser maps the address to an IP address through DNS and requests information
+-Servers retrieves the information if available and sends a response
+-Browser parses the HTML code and displays information.
