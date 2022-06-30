@@ -1,0 +1,21 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+
+
+th {
+  text-transform: uppercase;
+  background-color: lightcyan;
+}
+
+td {
+  text-transform: capitalize;
+  background-color: lightcyan;
+  width: 150px;
+  height: 100px;
+}
